@@ -7,6 +7,10 @@ window.addEventListener("load", function(){
         editor.execCommand("Bold", false, null);
     }, false);
 
+    underlinedButton.addEventListener("click", function(){
+        editor.execCommand("Underline", false, null);
+    }, false);
+
     italicButton.addEventListener("click", function(){
         editor.execCommand("Italic", false, null);
     }, false);
